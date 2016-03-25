@@ -10,6 +10,6 @@ else
     head -n 1 | awk -F"*" '{print $2}' |
     sed -e 's/^ *//' |
     tr -d '\n')
-echo $PROD;
-#  softwareupdate -i "$PROD" -v;
+# echo $PROD;
+  softwareupdate -i "$PROD" -v;
 fi
