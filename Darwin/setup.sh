@@ -2,3 +2,4 @@
 DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$DIR" ]]; then DIR="$PWD"; fi
 $DIR/install_brew.sh
+$DIR/install_vim.sh
